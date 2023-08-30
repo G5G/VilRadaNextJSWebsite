@@ -1,0 +1,17 @@
+.custom-typed-text {
+    font-family: 'sans'; /* Replace 'YourFontName' with your actual font name */
+    font-size: 3006px; /* Adjust the font size to your preference */
+    font-weight: bold; /* You can set the font weight to 'bold' or another value */
+  }
+  
+  .custom-typed-text::after {
+    content: '|'; /* Use the cursor character */
+    animation: blink 0.5s infinite alternate; /* Smooth blinking animation */
+  }
+  
+  @keyframes blink {
+    to {
+      opacity: 0; /* Disappear during the animation */
+    }
+  }
+  
