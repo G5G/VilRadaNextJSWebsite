@@ -1,10 +1,13 @@
 // src/app/page.client.js
 'use client'
-import AnimatedCursor from "react-animated-cursor"
+import dynamic from "next/dynamic";
+const DynamicCursor = dynamic(() =>import("react-animated-cursor"),{
+    ssr:false
+});
 const MouseTracker = () => {
     return (
         
-        <AnimatedCursor
+        <DynamicCursor
         innerSize={7}
         outerSize={8}
         color="255,255,255"
