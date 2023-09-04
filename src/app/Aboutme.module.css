@@ -1,17 +1,16 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Align items to the top vertically */
-    align-items: flex-start; /* Align items to the left horizontally */
-    padding: 0rem;
-    min-height: 100vh;
-    margin-right: 60vh;
-  }
-  
-  .about-me {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-align: left; /* Align text to the far left */
-    
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* Center items horizontally */
+  padding: 2rem; /* Increase padding for better spacing on smaller screens */
+  min-height: 100vh;
+  text-align: center; /* Center-align text */
+  margin: 0; /* Remove the right margin */
+}
+
+.about-me {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem; /* Use relative units for font size, makes it more responsive */
+  margin-top: 1rem; /* Add spacing at the top for better readability */
+}
