@@ -5,13 +5,12 @@
   align-items: flex-start;
   padding: 0rem;
   min-height: 100vh;
-  margin: 0 auto; 
-  max-width: 600px; 
+  max-width: 800px; 
 }
 
 .about-me {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+  font-size: 1.5em;
   text-align: left;
   width: 100%; 
 }
