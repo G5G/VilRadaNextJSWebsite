@@ -3,6 +3,7 @@
   font-size: 3rem; /* Adjust the font size to your preference */
   font-weight: bold; /* You can set the font weight to 'bold' or another value */
   padding: 24rem;
+  color:white;
 }  
 .custom-typed-text::after {
   animation: blink 0.5s infinite alternate; /* Smooth blinking animation */

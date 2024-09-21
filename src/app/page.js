@@ -16,7 +16,7 @@ const Page = () => {
       <AboutmePage />
       </section>
       <footer className={styles.footer}>
-        <p>&copy; 2023 vilrada</p>
+        <p>&copy; 2024 vilrada</p>
       </footer>
     </main>
   );
