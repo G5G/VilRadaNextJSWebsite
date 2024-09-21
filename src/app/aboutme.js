@@ -33,7 +33,7 @@ function AboutmePage() {
       <div className={styles["main"]}>
         <h2>About Me</h2>
         <p className={styles["about-me"]}> 
-            Hello, I am Vilius Radavicius, a dedicated full-stack software engineer fueled by a profound passion for artificial intelligence.
+            Hello, I am Vilius Radavicius, a dedicated full-stack software engineer fueled by a profound passion for artificial intelligence..
         </p>
         
       </div>
@@ -46,6 +46,7 @@ function AboutmePage() {
         </p>
 
       </div>
+      
     </div>
     </div>
     );
