@@ -1,17 +1,18 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Align items to the top vertically */
-    align-items: flex-start; /* Align items to the left horizontally */
-    padding: 0rem;
-    min-height: 100vh;
-    margin-right: 60vh;
-  }
-  
-  .about-me {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-align: left; /* Align text to the far left */
-    
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0rem;
+  min-height: 100vh;
+  max-width: 800px; 
+  color:white;
+}
+
+.about-me {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  width: 100%; 
+  color:white;
+}

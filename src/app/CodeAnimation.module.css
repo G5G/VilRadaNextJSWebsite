@@ -1,8 +1,9 @@
 .custom-typed-text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Replace 'YourFontName' with your actual font name */
-  font-size: 100px; /* Adjust the font size to your preference */
+  font-size: 3rem; /* Adjust the font size to your preference */
   font-weight: bold; /* You can set the font weight to 'bold' or another value */
-  padding: 220px;
+  padding: 24rem;
+  color:white;
 }  
 .custom-typed-text::after {
   animation: blink 0.5s infinite alternate; /* Smooth blinking animation */
